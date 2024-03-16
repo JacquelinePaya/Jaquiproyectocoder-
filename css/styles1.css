@@ -31,7 +31,7 @@ h1 {
     font-weight: 900;
     text-transform: uppercase;
     font-size: 2.5rem;
-    color: #ae5d08;
+    color: #ffc107;
 
 
 }
@@ -41,7 +41,7 @@ h2 {
     font-weight: 900;
     text-transform: uppercase;
     font-size: 1.9rem;
-    color: #ae5d08;
+    color: #ffffff ;
 
 
 }
@@ -51,7 +51,7 @@ h3 {
     font-weight: 900;
     text-transform: uppercase;
     font-size: 1.5rem;
-    color: #ec901f;
+    color: #ffc107;
 
 }
 
@@ -110,20 +110,20 @@ p {
 /*  ------------------IDEAS-------------------   */
 
 #quiensoy {
-    background-color: #fffd98;
+    background-color: #bf9550;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 #ideas {
-    background-color: #f4e480;
+    background-color: #e6b5a6;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 
 #miexperiencia {
-    background-color: #e8cb69;
+    background-color: #436b56;
     color: #ffc93d;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -148,7 +148,7 @@ p {
     padding: 2%;
     margin: 1%;
     transition: transform 0.3s ease-in-out;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1)
 }
 
 .article:hover {
@@ -219,8 +219,8 @@ ul {
 /*  ------------------BOTONES-------------------   */
 .btn-outline-warning {
     color: #ffffff;
-    border-color: #ec901f;
-    background-color: #ec901f;
+    border-color: #e25439;
+    background-color: #e25439;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -230,15 +230,15 @@ ul {
 }
 
 .btn-secondary {
-    background-color: #ffc107;
+    background-color: #e25439;
     color: #ffffff;
-    border-color: #ffc107;
+    border-color: #e25439;
     transition: transform 0.3s ease-in-out;
 }
 
 .btn-secondary:hover {
-    background-color: #ec901f;
-    border-color: #ec901f;
+    background-color: #ffc107;
+    border-color: #ffc107;
     color: #ffffff;
     transform: scale(1.15);
 }
