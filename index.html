@@ -21,17 +21,17 @@
     <!-------------------- HEADER ------------------------------------->
     <header>
         <section id="inicio">
-
-
-            <nav class="navbar navbar-expand-md border-bottom ">
+            <nav class="navbar navbar-expand-md border-bottom">
                 <div class="container">
-                    <a class="navbar-brand" href="#inicio"></a>
-                    <img class="logo" src="./Images/logo1.jpg" alt="Logo" width="60" height="60">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler order-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+                    <a class="navbar-brand mx-auto order-2 order-md-1" href="#inicio">
+                        <img class="logo" src="./Images/logo1.jpg" alt="Logo" width="40" height="40">
+                    </a>
+                    <div class="collapse navbar-collapse justify-content-md-end order-1 order-md-2" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="#quiensoy">¿Quién soy?</a>
@@ -63,13 +63,13 @@
         <!-----------------------SECCION ¿QUIEN SOY?--------------------------------->
 
         <section id="quiensoy" class="quiensoy">
-            <div class="row container bg-gris text-center">
+            <div class="row container bg-gris text-center mb-2">
                 <div class="col-12 col-md-4 image-containers exp">
                     <img class="mb-2 profile img-fluid" src="./Images/fotodeperfil.jpg" alt="foto de presentación">
                 </div>
                 <div
                     class="col-12 col-md-8 text-center d-md-flex flex-md-column justify-content-md-center align-items-md-center">
-                    <h1 class="mb-3 fw-bold">¿Quién soy?</h1>
+                    <h1 class="mb-2 fw-bold">¿Quién soy?</h1>
                     <p class="mb-md-3 paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
                         unde
                         repudiandae
@@ -84,13 +84,13 @@
         <!-----------------------SECCION IDEAS--------------------------------->
 
         <section id="ideas" class="ideas">
-            <div class="container text-center">
+            <div class="container text-center mb-2">
                 <h2 class="mb-1 fw-bold">Ideas</h2>
                 <p class="paragraph">Estas son algunas de las propuestas que planifiqué e implementé en mis practicas de
                     formación docente para Taller 3 y Taller 4.</p>
                 <div class="row tarjetas justify-content-center">
                     <article class="article col-10 col-md">
-                        <h3>Conociendo a Isol</h3>  
+                        <h3>Conociendo a Isol</h3>
                         <img class="idea-img img-fluid" src="./Images/isol.jpg"
                             alt="Foto de la reconocida autora e ilustradora Isol">
                         <p class="mb-2">Itinerario literario de seguimiento la reconocida autora e ilustradora
@@ -120,15 +120,15 @@
         <!-----------------------MI EXPERIENCIA------------------------------->
         <section id="miexperiencia" class="miexperiencia">
             <div class="container text-center bg-gris">
-                <h2 class="mb-1 fw-bold">Mi experiencia</h2>
+                <h2 class="mb-2 fw-bold">Mi experiencia</h2>
 
                 <div>
-                    <div class="row justify-content-center"> 
+                    <div class="row justify-content-center">
                         <div class="col-10 col-md-8 image-container exp ">
                             <img src="./Images/maestra.jpg" class="img-fluid" alt="Imagen principal">
                             <div class="overlay">
                                 <div class="overlay-content">
-                                    <h4 class="d-none d-md-block">Docente auxiliar de nivel inicial</h4>
+                                    <h4>Docente auxiliar de nivel inicial</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque commodi placeat
                                         enim
                                         fugiat omnis! Molestiae dicta deserunt autem inventore nobis similique. Fugit
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-                <div class= "container">
+                <div class="container">
                     <div class="row mt-1 justify-content-center">
                         <!-- Imagen secundaria 1 -->
                         <div class="col-10 col-md-4">
@@ -211,7 +211,7 @@
                 <div class="col-12 col-md text-center text-md-center">
                     <p>&copy; 2024 Jacqueline V.</p>
                 </div>
-                
+
                 <div class="col-12 col-md text-center text-md-right">
                     <img class="logo" src="./Images/logo2.jpg" alt="Logo" width="60" height="60">
                 </div>
