@@ -1,0 +1,247 @@
+/* TIPOGRAFIA TEXTOS
+font-family: "Montserrat", sans-serif;
+TIPOGRAFIA TITULOS
+font-family: "Truculenta", sans-serif;
+*/
+
+/*-----------GENERAL--------*/
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img,
+video {
+    max-width: 100%;
+    border-radius: 3%;
+}
+
+
+/* títulos */
+h1{
+    font-family: "Truculenta", sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #ae5d08;
+    
+} 
+
+h2 {
+    font-family: "Truculenta", sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #ffc107;
+    
+} 
+
+h3 {
+    font-family: "Truculenta", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #ec901f;
+}
+
+h4 {
+    font-family: "Truculenta", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #ae5d08;
+}
+
+li {
+    font-size: 1rem;
+}
+
+/* párrafos*/
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: black;
+    padding: 1%;
+
+}
+
+.nav-item {
+    font-size: 1rem;
+    color: black
+
+}
+
+
+
+/* No banner en mobile*/
+@media (max-width: 767px) {
+    .banner {
+        background-image: none;
+    }
+}
+
+/* Banner version desktop */
+@media (min-width: 768px) {
+    .banner {
+        background-image: url(..//Images/banner.jpg) !important;
+        background-attachment: fixed;
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        margin-top: 1%;
+    }
+}
+
+
+
+
+/*  ------------------IDEAS-------------------   */
+
+#quiensoy {
+    background-color:#fffd98;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#ideas {
+    background-color:#f4e480;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+#miexperiencia {
+    background-color:#e8cb69;
+    color: #ffc93d;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+#contacto {
+    background-color:#ffffff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.image-container {
+    position: relative;
+    margin-bottom: 1%;
+}
+
+.article {
+    background-color:#ffffff;
+    border-radius: 2%;
+    padding: 2%;
+    margin: 1%;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.article:hover {
+    transform: scale(1.05); 
+}
+
+.exp {
+    transition: transform 0.3s ease-in-out;  
+}
+
+.exp:hover {
+    transform: scale(1.05);
+}
+
+/*  ------------------MI EXPERIENCIA-------------------   */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e4e3e3c0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.overlay-content {
+    text-align: center;
+    max-width: 90%;
+    padding: 0 10px;
+    
+}
+
+
+.image-container:hover .overlay {
+    opacity: 1;
+
+}
+
+
+
+
+/* ----- Footer -------*/
+footer a{
+    color: white;
+    font-size: smaller;
+}
+
+ol, ul {
+    padding-left: 0rem;
+}
+
+.bg-gris {
+    background-color: #ffffff;
+    max-width: 80%;
+    border-radius: 2%;
+    padding: 2%;
+    margin: 2% 10%;
+}
+
+
+/*  ------------------BOTONES-------------------   */
+.btn-outline-warning {
+    color: #ffffff;
+    border-color: #ec901f;
+    background-color: #ec901f;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.btn-outline-warning:hover {
+    color:#ffffff;
+    transform: scale(1.15); 
+}
+
+.btn-secondary {
+    background-color:#ffc107;
+    color: #ffffff;
+    border-color: #ffc107;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.btn-secondary:hover {
+    background-color: #ec901f;
+    border-color: #ec901f;
+    color: #ffffff;
+    transform: scale(1.15); 
+}
+
+.nav-link{
+    font-size: large;
+    color: #000000;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    color:#ffc107
+}

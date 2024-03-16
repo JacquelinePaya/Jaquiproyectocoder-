@@ -1,0 +1,41 @@
+/* TIPOGRAFIA TEXTOS
+font-family: "Montserrat", sans-serif;
+TIPOGRAFIA TITULOS
+font-family: "Truculenta", sans-serif;
+*/
+/*-----------GENERAL--------*/
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Truculenta", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+div {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
