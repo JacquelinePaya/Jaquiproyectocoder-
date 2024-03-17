@@ -1,6 +1,15 @@
-//HEADER
+// --------------HEADER--------------------------
+.nav-link {
+    font-size: large;
+    color: #000000;
 
+    &:hover {
+        font-weight: 600;
+        color: #e25439;
+    }
+}
 
-
-
-
+.navbar {
+    background-color: white;
+    width: 100%;
+}

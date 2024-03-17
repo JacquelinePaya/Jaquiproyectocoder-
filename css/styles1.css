@@ -39,7 +39,7 @@ h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #ffffff ;
     padding: 1%;
 }
@@ -106,7 +106,7 @@ p {
 
 
 
-/*  ------------------IDEAS-------------------   */
+/*  ------------------FONDOS-------------------   */
 
 #quiensoy {
     background-color: #a79186;
@@ -135,6 +135,16 @@ p {
     padding-bottom: 2rem;
 }
 
+.bg-gris {
+    background-color: #ffffff;
+    max-width: 80%;
+    border-radius: 2%;
+    padding: 2%;
+    margin: 2% 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*  ------------------IDEAS-------------------   */
 
 .image-container {
     position: relative;
@@ -154,13 +164,6 @@ p {
     transform: scale(1.05);
 }
 
-.exp {
-    transition: transform 0.3s ease-in-out;
-}
-
-.exp:hover {
-    transform: scale(1.05);
-}
 
 /*  ------------------MI EXPERIENCIA-------------------   */
 .overlay {
@@ -195,7 +198,7 @@ p {
 
 
 
-/* ----- Footer -------*/
+/* --------------------FOOTER --------------------------*/
 footer a {
     color: white;
     font-size: smaller;
@@ -206,14 +209,6 @@ ul {
     padding-left: 0rem;
 }
 
-.bg-gris {
-    background-color: #ffffff;
-    max-width: 80%;
-    border-radius: 2%;
-    padding: 2%;
-    margin: 2% 10%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-}
 
 
 /*  ------------------BOTONES-------------------   */
@@ -243,6 +238,15 @@ ul {
     transform: scale(1.15);
 }
 
+.exp {
+    transition: transform 0.3s ease-in-out;
+}
+
+.exp:hover {
+    transform: scale(1.05);
+}
+
+/*--------------------NAV----------------------- */
 .nav-link {
     font-size: large;
     color: #000000;
@@ -253,29 +257,16 @@ ul {
     color: #e25439
 }
 
-.dest{
-    color:#6a5c55;
-    text-transform: uppercase;
-    font-weight: bold;
+.navbar {
+    background-color: white;
+    width: 100%;
 }
-.destacar{
-    color:#e25439;
-    font-size: 1.3rem;
-}
-
+/*--------------------CONOCIENDOAISOL.HTML----------------------- */
 .bodyisol{
     background-color: #f3d8bb;
 }
 
-.navbar {
-    background-color: white;
-}
-
-.bodyjuegomulti{
-    background-color: #6a5c55;
-}
-
-/*ESCULTURA.HTML */
+/*--------------------ESCULTURA.HTML----------------------- */
 /* No banner en mobile*/
 @media (max-width: 767px) {
     .fondo {
@@ -315,21 +306,31 @@ ul {
 .bodyesc{
     background-color: #cec4b4 ;
 }
-
+/*--------------------JUEGOMULTISENSORIAL.HTML----------------------- */
 .bodyjuego{
     background-color: #a79186;
 }
-.tit-am {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 900;
-        text-transform: uppercase;
-        font-size: 1.6rem;
-        color: #6a5c55 ;
-        padding: 1%;
-    
-    
-}
 
+/*--------------------CONTACTO.HTML----------------------- */
 .bodycontacto{
     background-color: #e1a832;
+}
+
+/*--------------------HIGHLITS EN TEXTOS----------------------- */
+.tit-am {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #6a5c55 ;
+    padding: 1%;
+}
+.dest{
+    color:#6a5c55;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.destacar{
+    color:#e25439;
+    font-size: 1.2rem;
 }

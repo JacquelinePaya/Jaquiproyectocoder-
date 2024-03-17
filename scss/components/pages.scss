@@ -1,0 +1,89 @@
+// --------------backgorunds index-------------------
+#quiensoy {
+    background-color: #a79186;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#ideas {
+    background-color: #f3d8bb;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#miexperiencia {
+    background-color: #cec4b4;
+    color: #ffc93d;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#contacto {
+    background-color: #ffffff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bg-gris {
+    background-color: #ffffff;
+    max-width: 80%;
+    border-radius: 2%;
+    padding: 2%;
+    margin: 2% 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------CONOCIENDOAISOL.HTML----------------------- */
+.bodyisol{
+    background-color: #f3d8bb;
+}
+
+/*--------------------ESCULTURA.HTML----------------------- */
+/* No banner en mobile*/
+@media (max-width: 767px) {
+    .fondo {
+        background-image: none;
+    }
+}
+@media (max-width: 767px) {
+.multimediaescultura video {
+    width: 90%;
+    margin:5%;
+    padding: 2% 2%;
+    display: inline-block;
+}
+}
+
+/* Banner version desktop */
+@media (min-width: 768px) {
+    .fondo {
+        background-image:url(../Images/manos.jpg);
+        background-attachment: fixed;
+        background-size:cover;
+        height: 50%;
+        border-radius: 2%;
+        margin-bottom: 2%;
+        }
+    }
+
+    @media (min-width: 768px) {
+    .multimediaescultura video {
+        width: 50%;
+        margin-left: 45%;
+        padding: 2% 2%;
+        display: inline-block;
+    }
+    }
+
+.bodyesc{
+    background-color: #cec4b4 ;
+}
+/*--------------------JUEGOMULTISENSORIAL.HTML----------------------- */
+.bodyjuego{
+    background-color: #a79186;
+}
+
+/*--------------------CONTACTO.HTML----------------------- */
+.bodycontacto{
+    background-color: #e1a832;
+}

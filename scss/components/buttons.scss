@@ -1,0 +1,15 @@
+
+// -------------------Botones-------------------------------
+.btn-secondary {
+    background-color: #e25439;
+    color: #ffffff;
+    border-color: #e25439;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #ffc107;
+        border-color: #ffc107;
+        color: #ffffff;
+        transform: scale(1.15);
+    }
+}
