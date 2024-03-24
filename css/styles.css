@@ -12,7 +12,8 @@ ol {
 }
 
 img,
-video {
+video,
+iframe {
   max-width: 100%;
   border-radius: 3%;
 }
@@ -105,7 +106,6 @@ ul {
   transition: transform 0.3s ease-in-out;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
-
 .article:hover {
   transform: scale(1.05);
 }
@@ -133,6 +133,13 @@ ul {
 
 .image-container:hover .overlay {
   opacity: 1;
+}
+
+.exp {
+  transition: transform 0.3s ease-in-out;
+}
+.exp:hover {
+  transform: scale(1.05);
 }
 
 #quiensoy {
